@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>please input two numbers</p>
+
+<form method='POST'>
+{% csrf_token %}
+{{form}}
+<input type='submit' value='handin'>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block tile %}默认标题{% endblock %}-'Hello!'</title>
+</head>
+<body>
+
+{% include 'nav.html' %}
+{% block content %}
+<div>......</div>
+{% endblock %}
+
+{% include 'bottom.html' %}
+
+{% include 'tongji.html' %}
+
+</body>
+</html>
+
