@@ -21,6 +21,6 @@ urlpatterns = [
     url(r'^add/(\d+)/(\d+)/$',learn_views.add,name='add'),
     url(r'^new_add/(\d+)/(\d+)/$',learn_views.add2,name='add2'),
     url(r'^add/$',learn_views.add,name='add'),
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^$',learn_views.index,name='index')
+    url(r'^admin/', admin.site.urls),
+    url(r'',include('blog.urls')),
 ]
