@@ -6,8 +6,8 @@ from django.utils import timezone
 def home_page(request):
     return render(request,'blog/home_page.html')
 '''
-def practice_profiles(request):
-    return render(request,'blog/practice02.html')
+def first_page(request):
+    return render(request,'blog/First-page.html')
 '''
 def post_list(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
