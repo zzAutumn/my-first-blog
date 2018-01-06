@@ -1,0 +1,96 @@
+
+
+
+
+.site-name {
+    background-color: #555555;
+    padding: 10px 0 10px 40px;
+}
+
+.nav-me {
+    background-color: black;
+    padding: 10px 0 10px 40px;
+}
+
+.nav-me ul {
+    list-style: none;
+    display: flex;
+    padding-left: initial;
+}
+
+.nav-me ul li {
+    padding-right: 18px;
+}
+
+.nav-me ul li a {
+    color: whitesmoke;
+}
+
+.content {
+    padding: 10px 40px 10px 40px;
+}
+
+.space {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.hr {
+    border: solid 0.5px #938d8d;
+}
+
+.unstyle-list {
+    list-style: none;
+    padding-left: initial;
+}
+
+.inline-list {
+    list-style: none;
+    display: flex;
+    padding-left: initial;
+}
+
+.inline-list li {
+    padding-right: 15px;
+}
+
+.blockquotes {
+    border-left: #dddddd solid 3px;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 15px;
+}
+
+.btn-me {
+    background-color: #00b3ee;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 20px;
+    padding: 40px 0 40px 100px;
+    color: whitesmoke;
+}
+
+
+p li {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

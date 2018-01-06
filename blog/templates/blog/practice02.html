@@ -1,0 +1,155 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Practice02</title>
+    <link rel="stylesheet" href="{% static 'css/practice02.css' %}"
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}"
+</head>
+<body>
+<div class="container-me">
+    <div class="site-name">
+        <h1>Sitename</h1>
+    </div>
+    <div class="nav-me">
+        <ul>
+            <li><a href="#">Nav item 1</a></li>
+            <li><a href="#">Nav item 2</a></li>
+            <li><a href="#">Nav item 3</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <!-- padetitle -->
+        <h1 class="space">Page Title</h1>
+        <div class="hr"></div>
+        <!-- heading level -->
+        <h1 class="space">Heading level1</h1>
+        <h2>Heading level2</h2>
+        <h3>Heading level3</h3>
+        <h4>Heading level4</h4>
+        <h5>Heading level5</h5>
+        <h6>Heading level6</h6>
+        <div class="hr"></div>
+        <!-- paragraphs -->
+        <h3 class="space">Paragraphs</h3>
+        <p>
+            Ut wisi enim ad minim veniam, <a href="#">quis nostrud exerci tation ullamcorper</a> suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </p>
+        <br>
+        <p>
+            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="hr"></div>
+        <!-- Responsive images -->
+        <h3 class="space">Responsive images</h3>
+        <p>
+            For images to be responsive (so that they will rescale to suit the width of the parent, use the <em>.img-responsive</em> class.
+        </p>
+        <h3 class="space">Unordered list</h3>
+        <p>
+            Unordered lists are used to markup lists where list items do not require numbering.
+        </p>
+        <ul>
+            <li>Ut wisi enim ad minim veniam</li>
+            <li>Quis nostrud exerci tation</li>
+            <li>Lamcorper suscipit lobortis nis</li>
+            <li>Ut aliquip ex ea commodo consequat</li>
+            <li>Duis autem vel eum iriure dolor</li>
+        </ul>
+        <div class="hr"></div>
+        <!-- Ordered list -->
+        <h3 class="space">Ordered list</h3>
+        <ol>
+            <li>Ut wisi enim ad minim veniam</li>
+            <li>Quis nostrud exerci tation</li>
+            <li>Lamcorper suscipit lobortis nis</li>
+            <li>Ut aliquip ex ea commodo consequat</li>
+            <li>Duis autem vel eum iriure dolor</li>
+        </ol>
+        <div class="hr"></div>
+        <!-- Unstyled list -->
+        <h3 class="space">Unstyled list</h3>
+        <p>
+            You can make the list unstyled using the <em>list-unstyled</em> class.
+        </p>
+        <ol class="unstyle-list">
+            <li>Ut wisi enim ad minim veniam</li>
+            <li>Quis nostrud exerci tation</li>
+            <li>Lamcorper suscipit lobortis nis</li>
+            <li>Ut aliquip ex ea commodo consequat</li>
+            <li>Duis autem vel eum iriure dolor</li>
+        </ol>
+        <div class="hr"></div>
+        <!-- Inline list -->
+        <h3 class="space">Inline list</h3>
+        <p>
+            You can make the list display inline using the <em>list-inline</em> class.
+        </p>
+        <ul class="inline-list">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+        </ul>
+        <div class="hr"></div>
+        <!-- Blockquotes -->
+        <h3 class="space">Blockquotes</h3>
+        <p>
+            The blockquote element is used to markup long quotations. Ideally, content inside should be wrapped in paragraph elements.
+        </p>
+        <div class="blockquotes">
+            <p>
+                The real names of our people were destroyed during slavery. The last name of my forefathers was taken from them when they were brought to America and made slaves, and then the name of the slave master was given, which we refuse, we reject that name today and refuse it. I never acknowledge it whatsoever.
+            </p>
+            <a href="#">Malcolm X</a>
+        </div>
+        <div class="hr"></div>
+        <!-- Button -->
+        <h3 class="space">Button</h3>
+        <p>
+            You can apply the <em>btn</em> class to any element that requires a button style.
+        </p>
+        <btn class="btn-me">Submit</btn>
+        <div class="hr" style="margin-top: 20px"></div>
+        <!-- Tables -->
+        <h3 class="space">Tables</h3>
+        <p>
+            Tables should be given the class of <em>table.</em>
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="footer">
+        &copy;Copyright 2018
+    </div>
+</div>
+
+</body>
+</html>
