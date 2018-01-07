@@ -1,0 +1,201 @@
+
+.main-wrapper {
+    background: #444 url("../img/cat.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+header {
+    background: rgba(0,0,0,0.2);
+}
+
+nav {
+    background: transparent;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+nav .logo{
+    display: inline-block;
+    height: 50px;
+    margin: 30px;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    height: 50px;
+    margin: 10px;
+}
+
+nav ul li a {
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: #FEDFE1;
+    font-size: 20px;
+}
+
+nav .logo a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+#banner {
+    background: transparent;
+    height: 550px;
+}
+
+.subhead {
+    padding: 30px 20px;
+}
+
+.posts {
+    background: #f2bebe4d;
+}
+
+.posts .text-section {
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 50px;
+    flex: 2;
+}
+
+.posts .text-section h2 {
+    font-family: "Cousine for Powerline";
+}
+
+.posts .text-section li {
+    font-family: "Nanum Gothic";
+    letter-spacing: 1px;
+}
+
+.posts .text-section p {
+    font-family: "Nanum Gothic";
+    letter-spacing: 1px;
+}
+
+.item1 {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.item1 .img {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.item1 .img img {
+    width: 100%;
+}
+
+.item2 {
+    display: -webkit-flex;
+    display: flex;
+    padding: 20px 0;
+}
+
+.item2 .img {
+    flex: 2;
+    padding-right: 20px;
+
+}
+
+.item2 .img img {
+   width: 100%;
+}
+
+.item3 {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.item3 .img {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.item3 .img img {
+    width: 100%;
+}
+
+
+.container {
+    background: #fff8dc99;
+    padding-bottom: 10px;
+}
+
+.row1 {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.row1 .img {
+    flex: 1;
+}
+
+.row1 .img img {
+    width: 90%;
+    padding: 20px;
+}
+
+.row2 {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.row2 .img {
+    flex: 2;
+}
+
+.row2 .img  img {
+    width: 90%;
+    padding: 20px;
+}
+
+.footer {
+    background: #b4d4f680;
+}
+
+.copy {
+    padding: 30px 0 30px 50px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.back-to-top {
+    background: #FEDFE1;
+    color: firebrick;
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

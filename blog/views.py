@@ -2,10 +2,10 @@ from django.shortcuts import render,get_object_or_404,redirect
 from .models import Post
 from .forms import PostForm
 from django.utils import timezone
-'''
+
 def home_page(request):
     return render(request,'blog/home_page.html')
-'''
+
 def first_page(request):
     return render(request,'blog/First-page.html')
 '''

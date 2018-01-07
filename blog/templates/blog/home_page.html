@@ -1,25 +1,105 @@
 {% load staticfiles %}
-<!DOCTYPE>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-<html>
-    <head>
-        <title>zzAutmn's blog</title>
-        <link  rel='stylesheet' href="{% static 'css/home_page.css' %}" />
-    </head>
-
-    <body>
-        <div class="text-center">
-            <h2></h2>
-            </p>
-            <p>
-                sljdkgjhd
-            </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>zzAutumn Home</title>
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home-page.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fontawesome-all.css' %}">
+</head>
+<body>
+    <div class="main-wrapper">
+        <header>
+            <nav>
+                <div class="logo"><a href="home-page.html" style="color: #FEDFE1"><i class="fas fa-anchor fa-2x fa-rotate-180"></i></a> </div>
+                <ul>
+                    <li><a href="#"><i class="fas fa-home fa-1x"></i>Home</a></li>
+                    <li><a href="#"><i class="fas fa-pencil-alt fa-1x"></i>Blog</a></li>
+                    <li><a href="#"><i class="far fa-smile fa-1x"></i>About</a></li>
+                    <li><a href="#"><i class="fab fa-adn fa-1x"></i>Chat</a></li>
+                </ul>
+            </nav>
+            <div id="banner"></div>
+        </header>
+    </div>
+    <div class="part1">
+            <div class="subhead">
+                <h2 style="color: #E69499; font-family: Monaco">Latest Posts</h2>
+            </div>
+            <div class="posts">
+                <div class="item1">
+                    <div class="img">
+                        <img src="{% static '/img/alejandro-alvarez-150148.jpg' %}">
+                    </div>
+                    <div class="text-section">
+                        <h2>New Year's resolution ideas 2018:</h2>
+                        <ul>
+                            <li>Exercise more</li>
+                            <li>Spend less money</li>
+                            <li>Self care (i.e. get more sleep)</li>
+                            <li>Learn a new skill</li>
+                            <li>Get a new hobby</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item2">
+                    <div class="text-section">
+                        <h2>title</h2>
+                        <p>nothing</p>
+                    </div>
+                    <div class="img">
+                        <img src="{% static '/img/alex-13577.jpg' %}">
+                    </div>
+                </div>
+                <div class="item3">
+                    <div class="img">
+                        <img src="{% static '/img/ian-schneider-66374.jpg' %}">
+                    </div>
+                    <div class="text-section">
+                        <h2>title</h2>
+                        <p>nothing</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <ul class="text-center">
-            <li>dsfk</li>
-
-        </ul>
-    </body>
-
+    <div class="part2">
+        <div class="subhead">
+            <h2 style="color: #E69499; font-family: Monaco">Album</h2>
+        </div>
+        <div class="container">
+            <div class="row1">
+                <div class="img">
+                    <img src="{% static '/img/chongqing.jpg' %}">
+                </div>
+                <div class="img">
+                    <img src="{% static '/img/tibet.jpg' %}">
+                </div>
+                <div class="img">
+                    <img src="{% static '/img/david-marcu-6357.jpg' %}">
+                </div>
+            </div>
+            <div class="row2">
+                <div class="img">
+                    <img src="{% static '/img/home.jpg' %}">
+                </div>
+                <div class="img">
+                    <img src="{% static '/img/japan.jpg' %}">
+                </div>
+                <div class="img">
+                    <img src="{% static '/img/friends.jpg' %}">
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="footer">
+        <div class="copy">
+            &copy; 2018-2019 zzAutumn
+        </div>
+    </div>
+    <button class="back-to-top"><a href="#" style="text-decoration: none">Top</a></button>
+    <script src="{% static '/js/jquery.js' %}"></script>
+    <script src="{% static '/js/home-page.js' %}"></script>
+</body>
 </html>
